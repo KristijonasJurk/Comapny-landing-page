@@ -1,0 +1,610 @@
+<!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
+<!--  Last Published: Wed May 12 2021 12:01:00 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="609a47063a8ac23689de4c3c" data-wf-site="60828c691b28c753238f144d" lang="lt">
+<head>
+  <meta charset="utf-8">
+  <title>4Team Corporation</title>
+  <meta content="Čia dirbti smagu!" name="description">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/4team.webflow.css" rel="stylesheet" type="text/css">
+  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="images/webclip.png" rel="apple-touch-icon">
+  <script src="https://www.google.com/recaptcha/api.js" type="text/javascript"></script>
+  <script>
+   window.onload = function() {
+       var anchors = document.getElementsByTagName('*');
+       for(var i = 0; i < anchors.length; i++) {
+           var anchor = anchors[i];
+           anchor.onclick = function() {
+               code = this.getAttribute('whenClick'); 
+               eval(code);  
+           }
+       }
+// redirect to english page if language is english
+     if(user_lang == 'en'){
+       window.location.replace("https://new.4teamcorp.lt/en");
+     }
+   }
+</script>
+  <style>
+  .languageswitchcontainer .w--current{
+   		border-color: transparent !important; 
+  }
+</style>
+  <style>
+body {
+-webkit-font-smoothing: antialiased;
+-moz-font-smoothing: antialiased;
+-o-font-smoothing: antialiased;
+}
+::-webkit-scrollbar {display: none;}
+#top-curve-blabla {
+  -webkit-filter: drop-shadow(0px 10px 20px #d3d8e5);
+  filter: drop-shadow(0px 10px 20px #d3d8e5);
+} 
+.w-nav {
+	width:100%
+}
+.slashsymbol {
+	background-color: currentColor;
+}
+.w-nav-link.w--current {
+	color: #54B848 !important;
+}
+.navlink:hover {
+    color: #55b748 !important;
+}
+.navlink.languagebutton.englishbutton.active, .navlink.languagebutton.lithuanianbutton.active {
+    color: #55b748 !important;
+}
+</style>
+</head>
+<body class="body">
+  <div data-collapse="medium" data-animation="default" data-duration="400" data-w-id="f6fef21e-9795-1d44-f048-dc393d5b7f8f" role="banner" class="navbar w-nav">
+    <div class="container w-container">
+      <a href="index.html" aria-current="page" class="logocontainer w-nav-brand w--current"><img src="images/4team-vilnius-logo---white.svg" loading="lazy" height="50" alt="Company Name - Home" class="logoimage whitelogo"><img src="images/4team-vilnius-logo.svg" loading="lazy" height="50" alt="Company Name - Home" class="logoimage colorlogo"></a>
+      <nav role="navigation" class="navlinks w-nav-menu">
+        <a href="#apie-mus" class="navlink w-nav-link">[[lt]]Apie Mus[[en]]About Us</a>
+        <a href="#komanda" class="navlink w-nav-link">[[lt]]Mūsų Komanda[[en]]The Team</a>
+        <a href="#karjera" class="navlink w-nav-link">[[lt]]Karjera[[en]]Career</a>
+        <a href="#musu-veikla" class="navlink w-nav-link">[[lt]]Mūsų Veikla[[en]]What We Do</a>
+        <a href="#kontaktai" class="navlink w-nav-link">[[lt]]Kontaktai[[en]]Contacts</a>
+        <div class="languageswitchcontainer navlink bordertransparent">
+          <a id="lithuanian" whenclick="setLang(&#x27;lt&#x27;)" href="index.html" aria-current="page" class="navlink languagebutton lithuanianbutton w-button w--current">LT</a>
+          <a id="english" whenclick="setLang(&#x27;en&#x27;)" href="en.html" class="navlink languagebutton englishbutton w-button">EN</a>
+        </div>
+      </nav>
+      <div class="linksbutton w-nav-button">
+        <div data-w-id="f6fef21e-9795-1d44-f048-dc393d5b7fa6" class="navbarbutton w-icon-nav-menu"></div>
+      </div>
+    </div>
+  </div>
+  <header id="hero" data-w-id="c8f6c5af-bd5d-8ae9-cf83-b014e05f4182" class="hero">
+    <div class="largecontainer hero w-container">
+      <div id="particles-js" class="backgroundparticles"></div>
+      <div class="contain1100 containhero">
+        <h1 class="heroh1">[[lt]]Visi mes skirtingi, bet esame šeima.[[en]]We are all different but we are a family.</h1>
+        <h2 class="h2-soft white heroh2">[[lt]]Junkis prie mūsų![[en]]Join us!</h2>
+        <a href="#karjera" class="greenbutton w-button">[[lt]]LAISVOS DARBO VIETOS[[en]]OPEN POSITIONS</a>
+      </div>
+    </div>
+  </header>
+  <div id="apie-mus" data-w-id="e9d7ea4b-a83f-a448-a56b-8681ab5d78f6">
+    <div data-w-id="c41627bd-8080-ff4b-7285-54ef794a4381" class="section privalumaisection">
+      <div class="contain1100 privalumai">
+        <div class="w-layout-grid aboutgrid"><img class="aboutimage" src="images/About-us-graphics-06.svg" width="570" height="801" alt="4team block sketch" style="opacity:0" data-w-id="78654aa6-b383-0cea-af2f-07be32c31930" id="w-node-_78654aa6-b383-0cea-af2f-07be32c31930-89de4c3c" loading="lazy">
+          <div id="w-node-_4189c9dd-63fd-695d-97cf-2204434e43ed-89de4c3c" class="abouttextblock">
+            <h1 data-w-id="c41627bd-8080-ff4b-7285-54ef794a4384" style="opacity:0" class="heading-5">[[lt]]Apie Mus[[en]]About Us</h1>
+            <h2 data-w-id="c41627bd-8080-ff4b-7285-54ef794a4386" style="opacity:0" class="h2-soft">[[lt]]4Team Corporation pradėjo savo veiklą 1999 m., kaip pelno bendrovė Jungtinėse Amerikos Valstijose ir yra „Microsoft“ sertifikuotas Gold partneris, nepriklausomai kuriantis, parduodantis ir palaikantis programinę įrangą. [[en]]4Team Corporation is a Microsoft Gold Partner and independent software vendor for enterprises and individuals. Company was founded in 1999 in the United States.</h2>
+            <h2 data-w-id="81af371f-5065-6db1-9efa-18fb890af0d9" style="opacity:0" class="h2-soft aboutspacing">[[lt]]Mus motyvuoja ir įkvepia nauji projektai, mūsų klientai iš viso pasaulio, ir komanda, kurioje dirbame. Domimės technologijomis, mėgstame aktyvų laisvalaikį, gamtą, gerą maistą, vyną bei muziką. O kas svarbiausia – visi esame skirtingi, bet esame šeima.[[en]]We are motivated and inspired by new projects, our clients from all over the world, and the team we work with. We all love tech, active leisure, nature, good food, wine and music. We are all different but we are a family.</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div data-w-id="beb7fe55-e6d2-e111-a92f-6beecb72ad55" class="section valuessection">
+      <div class="contain1100">
+        <div class="w-layout-grid aboutgrid">
+          <h1 class="white">[[lt]]Pagrindinė 4Team vertybė[[en]]The core value of the company</h1>
+          <h2 id="w-node-_36109581-a30e-58a1-2675-f447bc9fb8f3-89de4c3c" class="h2-soft fontorelega white">[[lt]]yra čia dirbantys žmonės. Džiaugiamės minimalia darbuotojų kaita bei vidutiniškai išdirbamu 7 metų laikotarpiu.<br>[[en]]is the people working here. We are pleased to have a very minimal staff turnover and an average working period of 7 years.</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="komanda" data-w-id="611f5179-39b1-551d-9aca-6d05305323ae" class="section teamsection">
+    <div class="contain1100">
+      <div class="w-layout-grid sectiontitle-grid komandatitlegrid">
+        <h1 id="w-node-_611f5179-39b1-551d-9aca-6d05305323b1-89de4c3c" class="heading-7">[[lt]]Mūsų Komanda[[en]]The Team</h1>
+      </div>
+      <div class="w-layout-grid teamgrid">
+        <div data-w-id="bf9c703e-68cf-426f-b487-fecbed708b06" style="opacity:0" class="w-layout-grid singleteamgrid">
+          <div id="w-node-e9cfae84-88bb-4db6-8a0f-7f5bafea05e4-89de4c3c" data-w-id="e9cfae84-88bb-4db6-8a0f-7f5bafea05e4" class="slidercontainer">
+            <div class="sliderblock">
+              <div data-w-id="b0403860-9a08-6e60-22ee-0b08537446b5" class="beforeslidercontainer">
+                <div data-w-id="98588149-b62f-ff2c-4ec9-c474130b1358" class="beforesliderinner">
+                  <h2 class="heading">After</h2>
+                </div>
+              </div>
+              <div data-w-id="13c8a311-a902-d4c5-8673-04d954dcee21" class="afterslidercontainer">
+                <div class="aftersliderinner">
+                  <div data-w-id="a5ecd446-80b7-8757-f05a-ffa318dd5f4e" class="afterslider">
+                    <h2 class="heading">Before</h2>
+                  </div>
+                </div>
+                <div class="slideline"></div>
+              </div>
+            </div>
+          </div>
+          <div id="w-node-bf9c703e-68cf-426f-b487-fecbed708b08-89de4c3c" class="teaminfocontainer">
+            <h3>Vardas Pavarde</h3>
+            <p class="jobtitle">[[lt]]Pardavimų Skyriaus Vadovas [[en]]Head of Sales Department</p>
+            <p>[[lt]] Nuo pat pirmų dienų čia jaučiuosi lyg bučiau atradęs savo tikrąją šeimą apie kurią nieko nežinojau. Kartais iš įpročio pavadinu vadovę mama ar bendradarbį broliu. Dirbti čia smagu, nes toks jausmas, lyg tiesiog daryčiau namų ruošos darbus.[[en]] Since joining 4Team, the feeling was that I have finally found my real lost family, I have never knew exsisted. I find myself often calling my boss mom or a colleague brother. Working here is a breeze because you feel like you are just doing chores.</p>
+          </div>
+        </div>
+        <div data-w-id="f2b7b6c9-c7a6-3f6c-4ccc-bee91fcbe442" style="opacity:0" class="w-layout-grid singleteamgrid">
+          <div id="w-node-f2b7b6c9-c7a6-3f6c-4ccc-bee91fcbe443-89de4c3c" data-w-id="f2b7b6c9-c7a6-3f6c-4ccc-bee91fcbe443" class="slidercontainer">
+            <div class="sliderblock">
+              <div data-w-id="f2b7b6c9-c7a6-3f6c-4ccc-bee91fcbe445" class="beforeslidercontainer">
+                <div data-w-id="f2b7b6c9-c7a6-3f6c-4ccc-bee91fcbe446" class="beforesliderinner">
+                  <h2 class="heading">After</h2>
+                </div>
+              </div>
+              <div data-w-id="f2b7b6c9-c7a6-3f6c-4ccc-bee91fcbe449" class="afterslidercontainer">
+                <div class="aftersliderinner">
+                  <div data-w-id="f2b7b6c9-c7a6-3f6c-4ccc-bee91fcbe44b" class="afterslider">
+                    <h2 class="heading">Before</h2>
+                  </div>
+                </div>
+                <div class="slideline"></div>
+              </div>
+            </div>
+          </div>
+          <div id="w-node-f2b7b6c9-c7a6-3f6c-4ccc-bee91fcbe450-89de4c3c" class="teaminfocontainer">
+            <h3>Vardas Pavarde</h3>
+            <p class="jobtitle"><em>[[lt]]Pardavimų Skyriaus Vadovas [[en]]Head of Sales Department</em></p>
+            <p>[[lt]] Nuo pat pirmų dienų čia jaučiuosi lyg bučiau atradęs savo tikrąją šeimą apie kurią nieko nežinojau. Kartais iš įpročio pavadinu vadovę mama ar bendradarbį broliu. Dirbti čia smagu, nes toks jausmas, lyg tiesiog daryčiau namų ruošos darbus.[[en]] Since joining 4Team, the feeling was that I have finally found my real lost family, I have never knew exsisted. I find myself often calling my boss mom or a colleague brother. Working here is a breeze because you feel like you are just doing chores.</p>
+          </div>
+        </div>
+        <div data-w-id="e42ff24b-8495-68c2-e2ec-7c6a25f742f0" style="opacity:0" class="w-layout-grid singleteamgrid">
+          <div id="w-node-e42ff24b-8495-68c2-e2ec-7c6a25f742f1-89de4c3c" data-w-id="e42ff24b-8495-68c2-e2ec-7c6a25f742f1" class="slidercontainer">
+            <div class="sliderblock">
+              <div data-w-id="e42ff24b-8495-68c2-e2ec-7c6a25f742f3" class="beforeslidercontainer">
+                <div data-w-id="e42ff24b-8495-68c2-e2ec-7c6a25f742f4" class="beforesliderinner">
+                  <h2 class="heading">After</h2>
+                </div>
+              </div>
+              <div data-w-id="e42ff24b-8495-68c2-e2ec-7c6a25f742f7" class="afterslidercontainer">
+                <div class="aftersliderinner">
+                  <div data-w-id="e42ff24b-8495-68c2-e2ec-7c6a25f742f9" class="afterslider">
+                    <h2 class="heading">Before</h2>
+                  </div>
+                </div>
+                <div class="slideline"></div>
+              </div>
+            </div>
+          </div>
+          <div id="w-node-e42ff24b-8495-68c2-e2ec-7c6a25f742fe-89de4c3c" class="teaminfocontainer">
+            <h3>Vardas Pavarde</h3>
+            <p class="jobtitle"><em>[[lt]]Pardavimų Skyriaus Vadovas [[en]]Head of Sales Department</em></p>
+            <p>[[lt]] Nuo pat pirmų dienų čia jaučiuosi lyg bučiau atradęs savo tikrąją šeimą apie kurią nieko nežinojau. Kartais iš įpročio pavadinu vadovę mama ar bendradarbį broliu. Dirbti čia smagu, nes toks jausmas, lyg tiesiog daryčiau namų ruošos darbus.[[en]] Since joining 4Team, the feeling was that I have finally found my real lost family, I have never knew exsisted. I find myself often calling my boss mom or a colleague brother. Working here is a breeze because you feel like you are just doing chores.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="karjera" data-w-id="58d927f9-947b-c0f0-6f9f-aeddb4665601" class="section karjerasection">
+    <div id="top-curve" class="curvedtopwrapper"><img src="images/curved-bottom.svg" loading="lazy" width="1920" height="365" alt="vector shape" class="image-4"></div>
+    <div class="contain1100 careercontainmargin">
+      <div class="w-layout-grid sectiontitle-grid karjeragrid">
+        <h1 data-w-id="58d927f9-947b-c0f0-6f9f-aeddb4665604" style="opacity:0" class="heading-8">[[lt]]Karjera [[en]]Career</h1>
+      </div>
+    </div>
+    <div class="contain1100">
+      <div class="w-embed">
+        <style>
+/* Customize every 1st,  & 3rd collection item itself */
+.collection-item:nth-child(3n+1) {justify-self: start !important;}
+.collection-item:nth-child(3n+3) {justify-self: end !important;}
+</style>
+      </div>
+      <div class="collection-list-wrapper w-dyn-list">
+        <div role="list" class="collection-list w-dyn-items">
+          <div id="w-node-_72a3a53e-484f-625b-e3a8-f4c3a0b9353e-89de4c3c" role="listitem" class="collection-item w-dyn-item">
+            <a data-w-id="3f11150f-870e-cff3-eed1-4b7b2468e591" href="#" class="careercardlink w-inline-block">
+              <div class="karjeracard">
+                <div class="careerimagecontainer">
+                  <p class="hovertext">DAUGIAU <span class="text-span"></span></p>
+                </div>
+                <div class="careercardtext">
+                  <h2 class="careertitle"></h2>
+                  <div class="careercardtextaccordion">
+                    <p class="careerparagraph">YOU! Yes, we are looking for YOU!</p>
+                  </div>
+                </div><img height="300" loading="lazy" width="300" alt="icon image" src="" class="careerimage">
+              </div>
+              <div class="karjeracardshadow"></div>
+            </a>
+          </div>
+        </div>
+        <div class="w-dyn-empty">
+          <div>No vacancies.</div>
+        </div>
+      </div>
+    </div>
+    <div id="bottom-curve" class="curvedbottomwrapper"><img src="images/curved-bottom.svg" loading="lazy" height="365" width="1920" alt="vector shape" class="image-3"></div>
+  </div>
+  <div id="musu-veikla" data-w-id="23e859fe-c8d3-7585-bffb-b9f00e65e290" class="section veiklasection">
+    <div class="contain1100">
+      <h1 data-w-id="23e859fe-c8d3-7585-bffb-b9f00e65e292" style="opacity:0" class="heading-9">[[lt]]Mūsų Veikla [[en]]What we do</h1>
+      <div data-w-id="23e859fe-c8d3-7585-bffb-b9f00e65e294" style="opacity:0" class="w-layout-grid grid">
+        <div class="verticalnavbarwrapper">
+          <div class="verticalnavbarline"></div>
+          <div class="verticalnavbarsteps">
+            <div class="verticalnavbarstep">
+              <div class="verticalnavbarbullet">
+                <a href="#Veikla1" class="verticalnavbarbulletpoint"></a>
+              </div>
+              <a href="#Veikla1" class="verticalnavbartitle">[[lt]]Programinė įranga [[en]]Software</a>
+            </div>
+            <div class="verticalnavbarstep">
+              <div class="verticalnavbarbullet">
+                <a href="#Veikla2" class="verticalnavbarbulletpoint"></a>
+              </div>
+              <a href="#Veikla2" class="verticalnavbartitle">[[lt]]Pardavimai [[en]]Sales</a>
+            </div>
+            <div class="verticalnavbarstep">
+              <div class="verticalnavbarbullet">
+                <a href="#Veikla3" class="verticalnavbarbulletpoint"></a>
+              </div>
+              <a href="#Veikla3" class="verticalnavbartitle">[[lt]]Konsultavimas [[en]]Consulting</a>
+            </div>
+            <div class="verticalnavbarstep">
+              <div class="verticalnavbarbullet">
+                <a href="#Veikla4" class="verticalnavbarbulletpoint"></a>
+              </div>
+              <a href="#Veikla4" class="verticalnavbartitle">[[lt]]Marketingas [[en]]Marketing</a>
+            </div>
+          </div>
+        </div>
+        <div id="Veikla1" class="veiklatextwrapper veiklatextwrapper1">
+          <h2 class="h2-main">[[lt]]Programinės įrangos kūrimas, diegimas [[en]]Software development, installation</h2>
+          <div style="height:90px" class="expandabletextcontainer">
+            <p class="paragraph">[[lt]]Mūsų pagrindinė specializacija - šiuolaikiškų IT sprendimų kūrimas, naudojant Microsoft technologijas. Tai yra produktai, skirti Microsoft Office 365 aplinkai bei kiti web sprendimai ir įdomūs startup projektai[[en]]Our main specialization - developing innovative IT solutions using Microsoft technologies. These are products for the Microsoft Office 365 environment, other web solutions and interesting startup projects.<br><strong><strong></strong></strong></p>
+            <div class="inline">
+              <p class="inline">[[lt]]Daugiau informacijosen]]More information: </p>
+              <a rel="noopener" data-w-id="673e3435-8c2b-308a-61ca-d9f3502de1ab" href="http://www.4team.biz/products.aspx" target="_blank" class="w-inline-block">
+                <div class="link">[[lt]]čia[[en]]check</div>
+              </a>
+              <div class="inline-block">
+                <p class="fa-solid link"></p>
+              </div>
+            </div>
+          </div>
+          <div data-w-id="bf568a26-9404-a644-f1c8-594dc913b800" class="readmore">Read more</div>
+        </div>
+        <div class="veiklaimagewrapper veiklaimagewrapper1"><img src="https://uploads-ssl.webflow.com/60828c691b28c753238f144d/6087b820e6bd7c2713d5b1d7_text1.png" loading="lazy" alt="" class="veiklaimagelabel1"><img src="https://uploads-ssl.webflow.com/607d3afb587ad93799435fad/608133994d8cb5f693a64253_development.svg" loading="lazy" width="369" height="369" alt="" class="veiklamainimage1"><img src="https://uploads-ssl.webflow.com/60828c691b28c753238f144d/6087b82b3673caf57f26d27a_text2.png" loading="lazy" alt="" class="veiklaimagelabel2"></div>
+        <div id="Veikla2" class="veiklatextwrapper veiklatextwrapper2 w-node-_23e859fe-c8d3-7585-bffb-b9f00e65e2b9-89de4c3c">
+          <h2 class="h2-main">[[lt]]Produktų pardavimai [[en]]Product sales</h2>
+          <div style="height:90px" class="expandabletextcontainer">
+            <p class="paragraph-2">[[lt]]Mūsų pardavimų komanda padeda išsirinkti tinkamą produktą tiek verslui, tiek privatiems vartotojams. Teikiame individualius pasiūlymus, kurie atitiktų kiekvieno kliento lūkesčius. Kadangi norime tobulėti ir patenkinti besikeičiančius klientų poreikius, investuojame į naujų produktų bei paslaugų kūrimą. Apie esamus ir būsimus produktų atnaujinimus nuolat informuojame ir savo klientus. [[en]]Our sales team helps to choose the right product for both, business and private users. It provides individual offers that meet every customer&#x27;s expectations. We want to improve and satisfy the changing needs of our clients. Therefore, we always invest in new products and services. We also inform our customers about existing and future product updates regularly.</p>
+          </div>
+          <div data-w-id="c5ee7a50-9dc4-6dd1-a9ce-3b48b3824588" class="readmore">Read more</div>
+        </div>
+        <div id="w-node-_23e859fe-c8d3-7585-bffb-b9f00e65e2ce-89de4c3c" class="veiklaimagewrapper veiklaimagewrapper2"><img src="https://uploads-ssl.webflow.com/60828c691b28c753238f144d/6087b820e6bd7c2713d5b1d7_text1.png" loading="lazy" alt="" class="veiklaimagelabel3"><img src="https://uploads-ssl.webflow.com/607d3afb587ad93799435fad/608133a691faa24870d41bce_sales.svg" loading="lazy" width="369" height="369" alt="" class="veiklamainimage2"><img src="https://uploads-ssl.webflow.com/60828c691b28c753238f144d/6087b82b3673caf57f26d27a_text2.png" loading="lazy" alt="" class="veiklaimagelabel4"></div>
+        <div id="Veikla3" class="veiklatextwrapper veiklatextwrapper3 w-node-_23e859fe-c8d3-7585-bffb-b9f00e65e2be-89de4c3c">
+          <h2 class="h2-main">[[lt]]Naudotojų konsultavimas [[en]]User consulting<br></h2>
+          <div style="height:90px" class="expandabletextcontainer">
+            <p>[[lt]]Konsultuojame klientus renkantis, perkant, įdiegiant bei toliau naudojant programinę įrangą. Nuolat renkame atsiliepimus iš klientų, išbandžiusių mūsų produktus. Skiriame didelį dėmesį jų analizavimui bei kokybės tobulinimui, todėl kiekvienas komentaras mums yra svarbus. Klientai komandą reitinguoja 5 žvaigždutėmis. [[en]]We are consulting clients in buying, installing and using our software. Our team continually collects feedback from our customers who have tested our products. We pay a lot of attention to analyzing and improving the quality of all our processes. That’s why every comment is so important to us. The team are proficient with the software and have been consistently rated 5 stars for providing an excellent service.</p>
+          </div>
+          <div data-w-id="a012c03a-3389-4c84-c680-712ab78c36e3" class="readmore">Read more</div>
+        </div>
+        <div id="w-node-_23e859fe-c8d3-7585-bffb-b9f00e65e2d0-89de4c3c" class="veiklaimagewrapper veiklaimagewrapper3"><img src="https://uploads-ssl.webflow.com/60828c691b28c753238f144d/6087b820e6bd7c2713d5b1d7_text1.png" loading="lazy" alt="" class="veiklaimagelabel5"><img src="https://uploads-ssl.webflow.com/607d3afb587ad93799435fad/6081338c14bc406a830d5057_chat.svg" loading="lazy" width="369" height="369" alt="" class="veiklamainimage3"></div>
+        <div id="Veikla4" class="veiklatextwrapper veiklatextwrapper4 w-node-_23e859fe-c8d3-7585-bffb-b9f00e65e2c6-89de4c3c">
+          <h2 class="h2-main">[[lt]]Marketingas [[en]]Marketing</h2>
+          <div style="height:90px" class="expandabletextcontainer">
+            <p class="paragraph-3">[[lt]]Mūsų marketingo komandą „veža“ technologijos ir jų naudojimas verslo tikslų siekimui. Mes - talentingi žmonės, tikri digital marketingo srities žinovai – guru! Esame perkandę PPC ir SEO vingrybes, įvaldę turinio kūrimo niuansus bei socialinės media valdymo ypatumus. Nepaisant to, nuolat mokomės ir tobulėjame. Naudojame efektyviausias marketingo priemones, kurios pritrauktų naujus klientus bei pagerintų esamų vartotojų patirtį įsigyjant mūsų produktus. [[en]]Our marketing team is driven by technology and uses it to achieve business goals. We are talented people, real digital marketing guru! We have comprehended PPC and SEO, mastered content creation nuances and social media management features. Nevertheless, we are constantly learning and improving our knowledge. We use the most effective marketing tools to attract new customers and improve the experience of existing users.</p>
+          </div>
+          <div data-w-id="64354e9f-427c-043a-3613-60ab984365d7" class="readmore">Read more</div>
+        </div>
+        <div id="w-node-_23e859fe-c8d3-7585-bffb-b9f00e65e2d2-89de4c3c" class="veiklaimagewrapper"><img src="https://uploads-ssl.webflow.com/60828c691b28c753238f144d/6087b820e6bd7c2713d5b1d7_text1.png" loading="lazy" alt="" class="veiklaimagelabel7"><img src="https://uploads-ssl.webflow.com/607d3afb587ad93799435fad/608133d1c1271e3915bb8515_marketing.svg" loading="lazy" width="369" height="369" alt="" class="veiklamainimage4"><img src="https://uploads-ssl.webflow.com/60828c691b28c753238f144d/6087b82b3673caf57f26d27a_text2.png" loading="lazy" alt="" class="veiklaimagelabel8"></div>
+        <div id="w-node-_1a179e35-f313-c4cc-2e71-1275268fb5d9-89de4c3c" class="logoanimation">
+          <div id="w-node-_9dd9e456-ccaf-0a37-5d5f-601c9339fe99-89de4c3c" class="upperlogoanimation"><img src="images/green-new.png" loading="lazy" width="100" style="opacity:0;-webkit-transform:translate3d(0, 30px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 30px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 30px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 30px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="green logo part" class="logopart greenpart"><img src="images/yellow-new.png" loading="lazy" width="100" style="opacity:0;-webkit-transform:translate3d(30px, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(30px, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(30px, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(30px, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="yellow logo part" class="logopart yellowpart"></div>
+          <div id="w-node-fae11d9b-60e5-9cbd-b584-a8431c7a9f51-89de4c3c" class="lowerlogoanimation"><img src="images/red-new.png" loading="lazy" width="100" style="opacity:0;-webkit-transform:translate3d(-30px, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(-30px, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(-30px, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(-30px, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="red logo part" class="logopart redpart"><img src="images/blue-new.png" loading="lazy" width="100" style="opacity:0;-webkit-transform:translate3d(0, 30px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 30px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 30px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 30px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="blue logo part" class="logopart bluepart"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div data-w-id="789af62c-dc90-00bf-a2fd-9594c6eccd07" class="section klientaisection">
+    <div class="contain1100">
+      <div class="w-layout-grid sectiontitle-grid klientaisection">
+        <h2 id="w-node-_181da8e9-9c47-41ec-5ac4-f750c89f50b4-89de4c3c" class="h2-soft center">[[lt]]Klientai sėkmingai naudoja mūsų produktus visame pasaulyje. [[en]]Customers are successfully using our services worldwide.<br></h2>
+      </div>
+      <div class="klientaicontainer">
+        <div class="klientaicard"><img src="images/lion-global-investors.jpg" loading="lazy" width="150" height="150" alt="lion global ivestors" class="klientaiimage"></div>
+        <div class="klientaicard"><img src="images/clear-channel.jpg" loading="lazy" width="220" height="68" alt="clear channel" class="klientaiimage"></div>
+        <div class="klientaicard"><img src="images/dimension-data.jpg" loading="lazy" width="220" height="84" alt="dimension data" class="klientaiimage"></div>
+        <div class="klientaicard"><img src="images/nato-defense-college.jpg" loading="lazy" width="170" height="150" alt="nato defence college" class="klientaiimage"></div>
+        <div class="klientaicard"><img src="images/cenexi.jpg" loading="lazy" width="220" height="93" alt="cenexi" class="klientaiimage"></div>
+        <div class="klientaicard"><img src="images/pvh.jpg" loading="lazy" height="150" width="171" alt="pvh" class="klientaiimage"></div>
+        <div class="klientaicard"><img src="images/geodis.jpg" loading="lazy" width="220" height="107" alt="geodis" class="klientaiimage"></div>
+        <div class="klientaicard"><img src="images/insight.jpg" loading="lazy" width="220" height="112" alt="insight" class="klientaiimage"></div>
+        <div class="klientaicard"><img src="images/learning-rx.jpg" loading="lazy" width="220" height="84" alt="learning rx" class="klientaiimage"></div>
+        <div class="klientaicard"><img src="images/laurentian-bank.jpg" loading="lazy" width="220" height="99" alt="laurentian bank" class="klientaiimage"></div>
+        <div class="klientaicard"><img src="images/avis-budget-group.jpg" loading="lazy" width="220" height="72" alt="avis budget group" class="klientaiimage"></div>
+        <div class="klientaicard"><img src="images/siemens.jpg" loading="lazy" width="220" height="74" alt="siemens" class="klientaiimage"></div>
+        <div class="klientaicard"><img src="images/balfour-beatty.jpg" loading="lazy" width="220" height="75" alt="balfour beatty" class="klientaiimage"></div>
+        <div class="klientaicard"><img src="images/saint-etienne-metropole.jpg" loading="lazy" width="220" height="133" alt="saint etienne metropole" class="klientaiimage"></div>
+      </div>
+    </div>
+  </div>
+  <div id="kontaktai" data-w-id="82d78f2a-463b-07a2-c064-a435e3cc5303" class="section graybg">
+    <div class="contain1100">
+      <div class="w-layout-grid footergrid">
+        <div class="w-layout-grid sectiontitle-grid kontaktaititlegrid">
+          <h1 class="heading-6">[[lt]]Kontaktai [[en]]Contacts</h1>
+        </div>
+        <div id="w-node-_82d78f2a-463b-07a2-c064-a435e3cc5309-e3cc5303" class="w-layout-grid footergridblock">
+          <div id="w-node-_82d78f2a-463b-07a2-c064-a435e3cc530a-e3cc5303" class="footercontacttext"><img src="images/4team-vilnius-logo-footer.svg" loading="lazy" width="194" height="35" alt="4team logo blue" class="footerlogo">
+            <div class="locationcontainer">
+              <div class="footertext">Kareivių g. 19 – 160 (3 aukštas), Vilnius</div>
+            </div>
+            <div class="emailcontainer">
+              <a href="#" class="footertext">cv@4teamcorp.lt</a>
+            </div>
+            <div class="phonecontainer">
+              <a href="#" class="footertext">+370 (5) 23 31662</a>
+            </div>
+            <div class="footerlinks">
+              <a data-w-id="82d78f2a-463b-07a2-c064-a435e3cc5319" href="https://www.facebook.com/4TeamVilnius/" class="footerlink w-inline-block">
+                <div class="footerlinkrelevant1"><img src="images/fb.svg" loading="lazy" width="30" height="30" alt="linkedin" class="footerlinkimage facebook"><img src="images/fb-mouseover.svg" loading="lazy" width="30" height="30" alt="facebook logo hover" class="footerlinkimage"></div>
+              </a>
+              <a data-w-id="82d78f2a-463b-07a2-c064-a435e3cc531d" href="https://twitter.com/4Team?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="footerlink w-inline-block">
+                <div><img src="images/tw.svg" loading="lazy" width="30" height="30" alt="linkedin" class="footerlinkimage twitter"><img src="images/tw-mouseover.svg" loading="lazy" width="30" height="30" alt="twitter logo hover" class="footerlinkimage"></div>
+              </a>
+              <a data-w-id="82d78f2a-463b-07a2-c064-a435e3cc531b" href="https://www.linkedin.com/company/4team-corporation/" class="footerlink w-inline-block">
+                <div><img src="images/in.svg" loading="lazy" width="30" height="30" alt="linkedin" class="footerlinkimage linkedin"><img src="images/in-mouseover.svg" loading="lazy" width="30" height="30" alt="linkedin logo hover" class="footerlinkimage"></div>
+              </a>
+            </div>
+          </div>
+          <div id="w-node-_82d78f2a-463b-07a2-c064-a435e3cc531f-e3cc5303" class="footermapcontainer"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section privacyandtermssection">
+    <div class="contain1100 privacyandtermscontain">
+      <p class="white privacytext">[[lt]]© 2021 4Team Corporation. Visos teisės saugomos.[[en]]© 2021 4Team Corporation. All rights reserved. <br></p>
+      <a href="#" class="link privacylink">[[lt]]Privatumas ir atsakomybė.[[en]]Terms and Privacy.</a>
+      <p class="white privacytext block"><br>[[lt]]Microsoft ir Office logotipai yra Microsoft Corporation registruoti prekiniai ženklai JAV ir/arba kitose šalyse.[[en]]Microsoft and the Office logo are registered trademarks of Microsoft Corporation in the United States and/or other countries.</p>
+    </div>
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=60828c691b28c753238f144d" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+  <script>
+// LANGUAGE SWITCH SETTING
+var DEAFULT_LANG = "en";
+var LANG_REG_EXP = /\[\[([a-z]{2})\]\]([^\[]+)/g;
+var isStorageEnabled = ! (typeof localStorage == 'undefined');
+var user_lang = (navigator.userLanguage||navigator.browserLanguage||navigator.language||DEAFULT_LANG).substr(0,2);
+var getLangParam = function(){
+    var arr = /lang=([a-z]{2})/g.exec(location.search);
+    return arr ? arr[1] : null;
+}
+var getLangFromStorage = function(){
+    return isStorageEnabled ? localStorage.getItem('lang') : undefined;
+}
+var setLang = function(lang){
+    user_lang = lang;
+    if(isStorageEnabled){
+        localStorage.setItem('lang', user_lang);
+    }
+    applyLang();
+}
+var applyLang = function(){
+    globalDict.forEach(function(v){
+        $(v.elm).html(v.dict[user_lang]);
+    });
+}
+function textNodesUnder(el){
+  var n, a=[], walk=document.createTreeWalker(el,NodeFilter.SHOW_ALL,null,false);
+  while(n=walk.nextNode()){
+      a.push(n);
+  }
+  return a;
+}
+var globalDict = [];
+$(function(){
+    user_lang = getLangParam() || getLangFromStorage() || user_lang;
+    if(user_lang == 'en'){
+ 	document.querySelector('#lithuanian').classList.remove("active");
+  	document.querySelector('#english').classList.add("active");
+  } if(user_lang == 'lt'){
+    document.querySelector('#english').classList.remove("active");
+  	document.querySelector('#lithuanian').classList.add("active");
+  } 
+    if(isStorageEnabled){
+        localStorage.setItem('lang', user_lang);
+    }
+    // bugfix for IE11
+    // if multilingual sentence is divided into sevaral text node, restore original text node
+    $("*").each(function(i,v){
+        if(LANG_REG_EXP.test($(this).text().replace(/\n/g,"")) && $(this).html().indexOf("<") == -1){
+            $(this).text($(this).text().replace(/\n/g,""));
+        }
+        var $v = $("#" + $(this).attr("id"));
+        if($v.length > 0 && LANG_REG_EXP.test($v.text().replace(/\n/g,"")) && $v.html().indexOf("<") == -1){
+            $v.text($v.text().replace(/\n/g,""));
+        }
+    })
+    textNodesUnder(document).filter(function(v){
+        return LANG_REG_EXP.test(v.nodeValue);
+    }).forEach(function(v,i){
+        var dict = {};
+        var arr;
+        while((arr = LANG_REG_EXP.exec(v.nodeValue)) != null){
+            dict[arr[1]] = arr[2];
+        }
+        globalDict.push({elm:$(v).parent()[0], dict:dict});        
+    });
+    applyLang();
+});
+// cut out text content if it overflows
+const cardText = document.querySelectorAll('.careerparagraph');
+for(let i=0;i<cardText.length;i++){
+  	if(cardText[i].innerHTML.length > 60){
+    	const newCardText = cardText[i].innerHTML.slice(0,60) + '...';
+      	cardText[i].innerHTML=newCardText;
+    }
+}
+</script>
+  <script>
+// SETTING ACTIVE CLASS ON LANGUAGE BUTTON
+if(getLangFromStorage){
+   window.onload = function() {
+       var anchors = document.getElementsByTagName('*');
+       for(var i = 0; i < anchors.length; i++) {
+           var anchor = anchors[i];
+           anchor.onclick = function() {
+                 		if(user_lang == 'en'){
+      								document.querySelector('#lithuanian').classList.remove("active");
+        							document.querySelector('#english').classList.add("active");
+                      // redirect to english page if language is english
+                      window.location.replace("https://new.4teamcorp.lt/en");
+  									}   if(user_lang == 'lt'){
+        							document.querySelector('#english').classList.remove("active");
+  										document.querySelector('#lithuanian').classList.add("active");
+ 									 } 
+               code = this.getAttribute('whenClick');
+               eval(code);  
+           }
+       }
+   }
+   if(us)
+}
+</script>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script>
+particlesJS(
+    // this is the ID your particles container needs to have
+	"particles-js",
+// Visit https://vincentgarreau.com/particles.js/ to get your code
+// Paste your code directly underneath this line
+{
+  "particles": {
+    "number": {
+      "value": 80,
+      "density": {
+        "enable": true,
+        "value_area": 800
+      }
+    },
+    "color": {
+      "value": "#ffffff"
+    },
+    "shape": {
+      "type": "circle",
+      "stroke": {
+        "width": 0,
+        "color": "#000000"
+      },
+      "polygon": {
+        "nb_sides": 5
+      },
+      "image": {
+        "src": "img/github.svg",
+        "width": 100,
+        "height": 100
+      }
+    },
+    "opacity": {
+      "value": 0.5,
+      "random": false,
+      "anim": {
+        "enable": false,
+        "speed": 1,
+        "opacity_min": 0.1,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": 3,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 40,
+        "size_min": 0.1,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": true,
+      "distance": 150,
+      "color": "#ffffff",
+      "opacity": 0.4,
+      "width": 1
+    },
+    "move": {
+      "enable": true,
+      "speed": 6,
+      "direction": "none",
+      "random": false,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": false,
+      "attract": {
+        "enable": false,
+        "rotateX": 600,
+        "rotateY": 1200
+      }
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "repulse"
+      },
+      "onclick": {
+        "enable": true,
+        "mode": "push"
+      },
+      "resize": true
+    },
+    "modes": {
+      "grab": {
+        "distance": 400,
+        "line_linked": {
+          "opacity": 1
+        }
+      },
+      "bubble": {
+        "distance": 400,
+        "size": 40,
+        "duration": 2,
+        "opacity": 8,
+        "speed": 3
+      },
+      "repulse": {
+        "distance": 200,
+        "duration": 0.4
+      },
+      "push": {
+        "particles_nb": 4
+      },
+      "remove": {
+        "particles_nb": 2
+      }
+    }
+  },
+  "retina_detect": true
+}
+)
+</script>
+</body>
+</html>
